@@ -155,7 +155,7 @@ namespace matrix_calculator
                             v = 0;
                             for (int r = 0; r < n; r++)
                                 v += a[i, r] * b[r, j];
-                            omatrix[i, j].Value = v;
+                            omatrix[j, i].Value = v;
 
                         }
                     }
